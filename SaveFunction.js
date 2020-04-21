@@ -1,3 +1,43 @@
+var data1 = [{
+  "_internalId": 5101002,
+  "_parent": "http://clarityppm.capture.eu/ppm/rest/v1/projects/5057011",
+  "code": "LM.000.000",
+  "name": "AJAX",
+  "_self": "http://clarityppm.capture.eu/ppm/rest/v1/projects/5057011/tasks/5099250",
+  "parentTask": "prj_5057011",
+  "isTask": false,
+  "taskOwner": null,
+  "isMilestone": false,
+  "isKey": true,
+  "isSubProject": false,
+  "hasSubtasks": true,
+  "percentComplete": 0,
+  "baselineStartDate": null,
+  "hasAssignments": false,
+  "finishDate": "2020-03-10T17:00:00",
+  "wbsSort": 9,
+  "startDate": "2020-03-10T08:00:00",
+  "baselineFinishDate": null,
+  "status": {
+      "displayValue": "Not Started",
+      "_type": "lookup",
+      "id": "0"
+  },
+  "id": 2,
+  "active": 0,
+  "saved": 1,
+  "_children": null,
+  "hcode": "1.1",
+  "parent": "null",
+  "depth": 1,
+  "x": -540,
+  "y": 90,
+  "maxdepth": 1,
+  "x0": -540,
+  "y0": 90,
+  "children": null
+}];
+
 var token = 'Basic YWRtaW46Q2xhcml0eTE1NiE=';
   
   function callbackReadTask(task, _internalId){
