@@ -40,7 +40,7 @@ var data1 = [{
     "_internalId": 5101004,
     "_parent": "http://clarityppm.capture.eu/ppm/rest/v1/projects/5057011",
     "code": "LM.000.000",
-    "name": "valami ismét megint 11",
+    "name": "AJAX from VSC",
     "_self": "http://clarityppm.capture.eu/ppm/rest/v1/projects/5057011/tasks/5099225",
     "parentTask": "prj_5057011",
     "isTask": false,
@@ -116,6 +116,7 @@ var data1 = [{
                       body: JSON.stringify({"name":name,"_internalId":ProjectTask,"parentTask":parentTaskID,
                       "wbsSort":wbsSort,"code":code})
                            };
+                           
                         function requestPatch (callback1) {
                           request(options, function (error, response) { 
                             if (response.statusCode !== 200) {
